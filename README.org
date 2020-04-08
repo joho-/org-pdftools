@@ -18,7 +18,7 @@ You can now install ~org-pdftools~ from MELPA! I'll soon add ~org-noter-pdftools
                              :complete #'org-pdftools-complete-link
                              :store #'org-pdftools-store-link
                              :export #'org-pdftools-export)
-    (add-hook 'org-store-link-functions 'org-pdftools-store-link)))
+    (add-hook 'org-store-link-functions 'org-pdftools-store-link))
 
 (use-package org-noter-pdftools
   :after org-noter)
